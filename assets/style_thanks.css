@@ -1,0 +1,61 @@
+html{
+    height: 100%
+}
+
+body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(60deg,#F13F79, #FFC778, #F13F79);
+    background-size: 900%;
+    animation: textAnime 15s infinite;
+}
+
+@keyframes textAnime{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.title {
+    height:60px;
+    text-align:center;
+    position:relative;
+}
+
+.title {
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+}
+
+.loginBtn {
+    margin-top: 40px;
+}

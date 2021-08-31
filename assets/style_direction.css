@@ -1,0 +1,89 @@
+.sample-box {
+    padding: 0px 60px;
+    margin: 40px 200px;
+    height: 700px;
+    width: auto;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(60deg,#F13F79, #FFC778, #F13F79);
+    background-size:400%;
+    animation: textAnime 15s infinite;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    /* margin: 0px 0px; */
+    padding: 40px 0;
+}
+
+.contents {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 20px 20px 10px;
+    height: 435px;
+    width: auto;
+}
+
+.btn {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display:block;
+    width:320px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    background:-webkit-linear-gradient(60deg,#F13F79, #FFC778);
+    /* background-size:400%;
+    animation: textAnime 8s infinite; */
+}
+
+a:hover {
+    transition: .5s;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .3);
+    color: #fff;
+}
+
+h1 {
+    font-size: 52px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 3px 6px #000000;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+@keyframes textAnime{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
